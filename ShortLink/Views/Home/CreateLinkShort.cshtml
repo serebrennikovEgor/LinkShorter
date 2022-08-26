@@ -1,0 +1,26 @@
+﻿@{
+    Layout = null;
+}
+ 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Создание короткой ссылки</title>
+</head>
+<body>
+    <div>
+        <h3>Форма создания короткой ссылки</h3>
+        <p>Введите ссылку:</p>
+        <form method ="post" asp-controller="Home" asp-action="AddLink">
+            <table>
+                <tr>
+                    
+                    <td><input type="text" name="FullName" /> </td>
+                </tr>
+            <tr><td><input type="submit" value="Отправить" /> </td><td></td></tr>
+            </table>
+        </form>
+
+    </div>
+</body>
+</html>
